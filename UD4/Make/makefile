@@ -7,8 +7,8 @@ calcula.exe: calcula.c calc.o
 calc.o: calc.c
 	$(COMPILADOR) $(ATRIBUTOS) -c calc.c -o calc.o
 
-.PHONY: limpiar
-limpiar:
+.PHONY: clean
+clean:
 	rm -rf calc.o
 	rm calcula.exe
 
