@@ -15,7 +15,7 @@ Este archivo contiene las cabeceras del archivo `calc.c` y sirve para definirlas
 ### calcula.c:
 Este archivo es el principal del programa y contiene el main, también contienen las lineas de `#include` ya que son las que nos permiten importar funciones desde otros archivos, en este caso tenemos la librería estandar \<stdio.h> que nos permite usar las funciones de input y output, y la librería "calc.h" que es el archivo que contiene las cabeceras de nuestras funciones definidas en el archivo `calc.c`. 
 
-### makefile
+### makefile:
 Con el archivo makefile, podemos automatizar de forma sencilla procesos, en este caso, lo he usado para automatizar la compilación de un programa, de tal forma que ejecutando el comando `make` podemos generar los archivos necesarios (calc.o) para luego poder compilarlo en el archivo final lamado `calcula.exe`. 
 
 También tenemos otras funcione como `limpiar`, que sirve para borrar los 2 archivos generados anteriormente, `dist` para dejarlo preparado para cuando tenga que instalarse, `targz` para comprimir los archivos e `install` para instalar la carpeta en /. 
